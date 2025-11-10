@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context> 
+		<Resource name="jdbc/MyDB" auth="Container"
+		type="javax.sql.DataSource" maxActive="100" maxIdle="30"
+		maxWait="1000" username="YOUR_DB_USERNAME" password="YOUR_DB_PASSWORD"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/vehicle_rent_application_db"/>
+</Context>
+

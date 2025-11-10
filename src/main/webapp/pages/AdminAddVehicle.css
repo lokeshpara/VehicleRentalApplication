@@ -1,0 +1,62 @@
+@charset "ISO-8859-1";
+
+* {
+	padding:0;
+	margin:0;
+	font-family: sans-serif;
+}
+
+body {
+	background: url("./images/login.png");
+	background-size: cover;
+	color: #fff;
+}
+
+.Adduser-form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	width:400px;
+}
+
+.Adduser-form h1 {
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px 0;
+} 
+
+.Adduser-form input {
+	font-size: 16px;
+	padding: 15px 10px;
+	width: 100%;
+	border:0;
+	border-radius: 5px;
+	outline: none;
+	margin:10px;
+}
+
+.Adduser-form select {
+	font-size: 16px;
+	padding: 15px 10px;
+	width: 100%;
+	border:0;
+	border-radius: 5px;
+	outline: none;
+	margin: 10px;
+	
+}
+
+.Adduser-form .bt1 {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 10px;
+	padding: 10px 15px;
+	width: 50%;
+	border:0;
+	border-radius:5px;
+	background-color: #fff;
+}
+
+
